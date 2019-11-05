@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5,
     padding: 0;
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #3b4eda !important; }
+      color: #000 !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -917,6 +917,10 @@ h1, h2, h3, h4, h5,
   font-size: 4rem;
   color: #3b4eda; }
 
+.service-29191 .img{
+  filter: brightness(1.25);
+}
+
 .service-29191 h3 {
   font-size: 20px;
   font-weight: 900; }
@@ -928,8 +932,10 @@ h1, h2, h3, h4, h5,
   font-size: 26px;
   color: #fff;
   font-weight: bold; }
-  .media-29191 h3 a {
-    color: #fff; }
+.media-29191 h3 a {
+  color: #fff; }
+
+
 
 .vcard-91123 .img {
   -webkit-box-flex: 0;
