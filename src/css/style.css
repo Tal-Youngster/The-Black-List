@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 55px;
-  background: #fff !important;
+  background: #111 !important;
   font-family: "Poppins", sans-serif; }
   .form-control:active, .form-control:focus {
     border-color: #3b4eda; }
@@ -300,6 +300,7 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
+  background: #212529;
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
@@ -308,6 +309,7 @@ h1, h2, h3, h4, h5,
     padding: 4em 0; }
 
 .footer {
+  background: #000;
   padding: 4em 0; }
   @media (min-width: 768px) {
     .footer {
@@ -317,9 +319,9 @@ h1, h2, h3, h4, h5,
   .footer h2, .footer h3, .footer h4, .footer h5 {
     color: #000; }
   .footer a {
-    color: rgba(0, 0, 0, 0.5); }
+    color: #fff;}
     .footer a:hover {
-      color: black; }
+      color: gray; }
   .footer ul li {
     margin-bottom: 10px; }
   .footer .footer-heading {
@@ -943,16 +945,19 @@ h1, h2, h3, h4, h5,
   color: #fff; }
 
 .nonloop-block-13 .owl-dots {
+  background: #212529;
   position: relative;
   bottom: -3rem;
   text-align: center;
   width: 100%; }
   .nonloop-block-13 .owl-dots .owl-dot {
+    background: #212529;
     display: inline-block;
     width: 10px;
     height: 10px;
     margin: 4px; }
     .nonloop-block-13 .owl-dots .owl-dot > span {
+      background: #212529;
       display: inline-block;
       width: 10px;
       height: 10px;
@@ -964,7 +969,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-weight: bold; }
   .site-logo-footer a {
-    color: #3b4eda; }
+    color: #fff; }
 
 .social_29128 a {
   display: inline-block;
